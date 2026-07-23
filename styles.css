@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "Figtree";
+    src: 
+        url(assets/fonts/Figtree-VariableFont_wght.ttf);
+        font-weight: 300 900;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: "Figtree";
+    src: 
+        url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+        font-weight: 300 900;
+        font-style: italic;
+}
+
+.attribution { 
+    font-size: 0.6875rem; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
