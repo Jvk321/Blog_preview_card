@@ -26,3 +26,104 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background-color: #F4D04E;
+    font-family: Figtree;
+}
+
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 498px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 12px;
+    gap: 24px;
+    border: 1px solid #111111;
+    filter: drop-shadow(8px 8px);
+}
+
+.ilustration {
+    width: 336px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.containner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 336px;
+}
+
+.tag {
+    color: #111111;
+    background-color: #F4D04E;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    padding: 4px 12px 4px 12px;
+    line-height: 150%;
+    border-radius: 4px;
+    display: inline-flex;
+}
+
+.published-date {
+    color: #111111;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 0 0 12px 0;
+    max-width: 336px;
+}
+
+.title {
+    color: #111111;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 150%;
+    margin: 0 0 12px 0;
+    max-width: 336px;
+    cursor: pointer;
+}
+
+.title:hover{
+    color: #F4D04E;
+}
+
+.description {
+    color: #6B6B6B;
+    font-size: 16px;
+    line-height: 150%;
+    max-width: 336px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    width: 336px;
+}
+
+.user-img {
+    width: 32px;
+    height: 32px;
+}
+
+.user-name {
+    color: #111111;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 150%;
+}
