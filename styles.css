@@ -41,8 +41,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 360px;
-    height: 498px;
+    max-width: 384px;
+    min-height: 522px;
+    width: 100%;
     background-color: #FFFFFF;
     border-radius: 20px;
     margin-top: auto;
@@ -69,7 +70,7 @@ body {
 .tag {
     color: #111111;
     background-color: #F4D04E;
-    font-size: 14px;
+    font-size: clamp(12px, calc(11.3px + 0.19vw), 14px);
     font-weight: 700;
     margin: 0 0 12px 0;
     padding: 4px 12px 4px 12px;
@@ -80,7 +81,7 @@ body {
 
 .published-date {
     color: #111111;
-    font-size: 14px;
+    font-size: clamp(12px, calc(11.3px + 0.19vw), 14px);
     font-weight: 500;
     line-height: 150%;
     margin: 0 0 12px 0;
@@ -89,7 +90,7 @@ body {
 
 .title {
     color: #111111;
-    font-size: 24px;
+    font-size: clamp(20px, calc(18.6px + 0.376vw), 24px);
     font-weight: 800;
     line-height: 150%;
     margin: 0 0 12px 0;
@@ -103,7 +104,7 @@ body {
 
 .description {
     color: #6B6B6B;
-    font-size: 16px;
+    font-size: clamp(14px, calc(13.3px + 0.188vw), 16px);
     line-height: 150%;
     max-width: 336px;
 }
