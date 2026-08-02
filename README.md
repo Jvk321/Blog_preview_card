@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: ()
 - Live Site URL: (https://jvk321.github.io/Blog_preview_card/)
 
 ## My process
