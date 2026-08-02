@@ -43,7 +43,7 @@ body {
     align-items: center;
     max-width: 360px;
     min-width: 303px;
-    height: 498px;
+    height: 502px;
     width: 100%;
     background-color: #FFFFFF;
     border-radius: 20px;
@@ -93,17 +93,17 @@ body {
     max-width: 336px;
 }
 
-.title {
+.title a{
     color: #111111;
     font-size: clamp(20px, calc(18.6px + 0.376vw), 24px);
     font-weight: 800;
     line-height: 150%;
     margin: 0 0 12px 0;
     max-width: 336px;
-    cursor: pointer;
+    text-decoration: none;
 }
 
-.title:hover{
+a:hover{
     color: #F4D04E;
 }
 
